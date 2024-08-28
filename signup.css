@@ -8,12 +8,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg , #c000b2aa , #8a2be2);
+    background:blueviolet;
 }
 .container .box{
     width: 400px;
     background-color: rgb(255, 255, 255);
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 9px 30px -15px rgb(0 0 0);
 }
@@ -30,7 +30,7 @@
      position: absolute; 
     width: 90px;
     height: 6px;
-    background: linear-gradient(45deg , #c000b2aa , #8a2be2);
+    background:blueviolet;
     bottom: 0px;
     border-radius: 200px;
 }
@@ -61,7 +61,7 @@
 }
 .box form .input_box input:focus + label,
 .box form .input_box input:valid + label{
-    top: -16px;
+    top: -19px;
     color: blue;
 }
 .box form button{
@@ -73,7 +73,7 @@
     font-weight: bold;
     cursor: pointer;
     color: #fff;
-    background: linear-gradient(45deg , #c000b2aa , #8a2be2);
+    background:blueviolet;
 }
 .box form button:hover{
     box-shadow: 0px 5px 10px-5px rgb(150, 50, 255);
@@ -81,10 +81,10 @@
 .box form .Link a,
 .box form .Login_link a,
 .box form .contact_link a{
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold; 
     color: #8a2be2;
 }
 .box form .signup_link,
@@ -92,12 +92,14 @@
 .box form .contact_link{
     
     font-size: 15px;
-    font-weight: bold;
-    margin: 20px;
+    /* font-weight: bold; */
     text-align: center;
+    margin: 15px;
 }
 .Login_link{
+    /* margin: 15px; */
     text-align: center;
+    font-size: 20px;
 }
 .box form .signup_link{
     text-align: center;
